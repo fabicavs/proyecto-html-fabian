@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primera pagina web</title>
+    <meta name="author" content="Fabi" />
+    <meta name="description" content="Esta es ,mi primera pagina web" />
+    <meta name="keywords" content="tutorial, desarrollo web, sergicoder" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link favicon="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(
+          to right,
+          rgb(17, 17, 190),
+          rgb(247, 247, 247)
+        );
+
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      header {
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      .active {
+        background-color: #1735cc;
+      }
+
+      h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #1235e6;
+      }
+      table {
+        border-collapse: collapse;
+        border: 2px solid rgb(255, 255, 255);
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+        background-color: #fff;
+      }
+      td {
+        border: 1px solid rgb(190, 190, 190);
+        padding: 10px 20px;
+      }
+      th {
+        border: 1px solid rgb(190, 190, 190);
+        padding: 10px 20px;
+        background-color: rgb(162, 162, 162);
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CLUB ATLETICO VELEZ SARSFIELD</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a class="active" href="jugadores.html">Jugadores</a></li>
+          <li><a href="estadio.html">Estadio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <h2>
+        <hr >
+        Entrenador: Guillermo Barros Schelotto.
+        <br>
+        <hr>
+        Jugadores 2025:
+      </h2>
+      <hr />
+    </header>
+
+    <div class="container">
+      <table>
+        <colgroup>
+          <col style="background-color: rgb(207, 207, 207)" />
+        </colgroup>
+        <th>N°</th>
+        <th>Nacionalidad</th>
+        <th>Posicion</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Ultimo equipo</th>
+
+        <tr>
+          <td>1</td>
+          <td>Argentino</td>
+          <td>POR</td>
+          <td>Tomás Marchiori</td>
+          <td>29 años</td>
+          <td>Atletico Tucumán (ARG)</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Uruguayo</td>
+          <td>POR</td>
+          <td>Randall Rodriguez</td>
+          <td>21 años</td>
+          <td>Peñarol (UY)</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>Argentino</td>
+          <td>POR</td>
+          <td>Emmanuel Gómez</td>
+          <td>23 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>42</td>
+          <td>Argentino</td>
+          <td>POR</td>
+          <td>Lautaro Garzón</td>
+          <td>21 Años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Emanuel Mammana</td>
+          <td>29 Años</td>
+          <td>River Plate (ARG)</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Elias Gomez</td>
+          <td>30 Años</td>
+          <td>River Plate (ARG)</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Joaquín García</td>
+          <td>23 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Chileno</td>
+          <td>DEF</td>
+          <td>Claudio Baeza</td>
+          <td>31 años</td>
+          <td>Toluca (MX)</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Aaron Quirós</td>
+          <td>23 años</td>
+          <td>Banfield (ARG)</td>
+        </tr>
+
+        <tr>
+          <td>14</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Agustín Lagos</td>
+          <td>23 años</td>
+          <td>Atlético Tucumán (ARG)</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Jano Gordon</td>
+          <td>20 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Patricio Pernicone</td>
+          <td>23 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Valentín Gómez</td>
+          <td>21 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Damián Fernández</td>
+          <td>24 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>37</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Tomás Cavanagh</td>
+          <td>24 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>43</td>
+          <td>Argentino</td>
+          <td>DEF</td>
+          <td>Isaías Andrada</td>
+          <td>22 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Tomás Galván</td>
+          <td>25 años</td>
+          <td>River Plate (ARG)</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Matías Pellegrini</td>
+          <td>25 años</td>
+          <td>New York City (EEUU)</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Leonel Roldán</td>
+          <td>20 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Agustín Bouzat</td>
+          <td>31 años</td>
+          <td>Colo-Colo (CHI)</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Thiago Fernández</td>
+          <td>21 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Christian Ordóñez</td>
+          <td>20 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Kevin Vázquez</td>
+          <td>24 años</td>
+          <td>Ferro (ARG)</td>
+        <tr>
+          <td>35</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Mateo Seoane</td>
+          <td>21 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>46</td>
+          <td>Argentino</td>
+          <td>MED</td>
+          <td>Maximiliano Porcel</td>
+          <td>19 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Uruguayo</td>
+          <td>DEL</td>
+          <td>Michael Santos</td>
+          <td>32 años</td>
+          <td>Juarez (MEX)</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Argentino</td>
+          <td>DEL</td>
+          <td>Braian Romero</td>
+          <td>33 años</td>
+          <td>Tijuana (MEX)</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Argentino</td>
+          <td>DEL</td>
+          <td>Álvaro Montoro</td>
+          <td>18 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Argentino</td>
+          <td>DEL</td>
+          <td>Francisco Pizzini</td>
+          <td>31 años</td>
+          <td>Talleres (ARG)</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>Argentino</td>
+          <td>DEL</td>
+          <td>Maher Carrizo</td>
+          <td>19 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Argentino</td>
+          <td>DEL</td>
+          <td>Florián Monzón</td>
+          <td>24 años</td>
+          <td>Inferiores</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Argentino</td>
+          <td>DEL</td>
+          <td>Imanol Machuca</td>
+          <td>25 años</td>
+          <td>Unión de Santa Fe (ARG)</td>
+        </tr>
+      </table>
+      <br />
+    </div>
+    <br>
+    <br>
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2025</p>
+    </footer>
+  </body>
+</html>
